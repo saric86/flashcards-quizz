@@ -1,5 +1,5 @@
 # Visit page at Vercel:
-https://flashcards-quizz.vercel.app/
+https://flashcards-quizz.vercel.app/topics
 
 # Getting Started with Create React App
 
