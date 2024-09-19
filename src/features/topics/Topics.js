@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ROUTES from "../../app/routes";
 // import selector
-import { selectTopics, addTopic } from './topicsSlice.js'; 
+import { selectTopics } from './topicsSlice.js'; 
 import { useSelector } from "react-redux";
 
 export default function Topics() {
