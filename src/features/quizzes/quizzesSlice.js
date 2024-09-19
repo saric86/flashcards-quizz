@@ -5,7 +5,20 @@ import { createSlice } from '@reduxjs/toolkit';
 export const quizzesSlice = createSlice({
     name: 'quizzes',
     initialState: {
-        quizzes: {},
+        quizzes: {
+            '123': {
+                id: '123',
+                name: 'Guess PS5 Games',
+                topicId: '1',
+                cardIds: ['333', '444', '555', '666']
+            },
+            '234': {
+                id: '234',
+                name: 'Guess Nintendo Games',
+                topicId: '1',
+                cardIds: ['233', '244', '255', '266']
+            }
+        },
     },
     reducers: {
         addQuiz: (state, action) => {

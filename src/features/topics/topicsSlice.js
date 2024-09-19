@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { addQuiz } from '../quizzes/quizzesSlice';
+import { ALL_ICONS } from '../../data/icons';
 
 
 // SLICE
@@ -8,7 +9,12 @@ export const topicsSlice = createSlice({
     name: 'topics',  // <-- This is the name of the slice which will be state.topics
     initialState: {
         topics: {   // <-- this is the second topics in state.topics.topics
-
+            '1': {
+                id: '1',
+                name: 'Games',
+                icon: ALL_ICONS[1].url,
+                quizIds: ['123', '234']
+            }
         }
     },
     reducers: {
